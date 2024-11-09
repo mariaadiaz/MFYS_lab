@@ -24,7 +24,7 @@ Before using the GUI, ensure you have the reference muscle synergies prepared (d
 
 ### Example Data Files Provided:
 - Reference muscle synergies in `.mat` format
-- Sample data from a participant performing the task with three assistance levels (20, 100, and 200N)
+- Sample data from a participant performing the task with three assistance levels (20, 100, and 200N). You can download the data from "P0_data.zip".
 
 **Input Requirements**:
 - Two `.mat` files containing reference synergies (`W_ref` and `H_ref`)
