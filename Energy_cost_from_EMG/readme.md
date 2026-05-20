@@ -51,3 +51,5 @@ Removing, adding, or reassigning a sensor will break the processing pipeline, be
 
 ### 3. Offline mode still requires the Delsys system
 It is possible to re-run the pipeline on previously collected data (`.pkl` files), but the Delsys base station **must still be connected via USB** and the API must be able to load successfully. This is because the application initializes the Delsys .NET bridge at startup, regardless of whether the data source is live or recorded.
+### 4. Data availability
+The recorded data can be **requested directly from the authors**. It is not hosted online because the files are too heavy, and there is currently no public repository associated with this project.
